@@ -7,7 +7,7 @@ const PageNotFound = require('./middleware/pageNotFound');
 const errorHandler = require('./middleware/error_handler');
 require('dotenv').config();
 // const port = 5000;
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 5001;
 
 
 // middlesware

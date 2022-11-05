@@ -1,8 +1,6 @@
      const mongoose = require('mongoose');
 
-    //  const connectingString = 
-    //  'mongodb+srv://Temzycode:Temitope@1234@cluster0.4qybc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
-
+   
      const connectDB = (url) => {
          return  mongoose.connect(url, {
             useNewUrlParser: true,

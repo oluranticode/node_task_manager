@@ -57,7 +57,6 @@ const { throwAnError } = require('../errors/custom-error')
       // Delete task controller
       const deleteTask = async (req, res) => {
         try{
-        
           const {id:taskID} = req.params;
           const task = await Task.findOneAndDelete({_id:taskID})
           if(!task){
